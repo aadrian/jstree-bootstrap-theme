@@ -55,6 +55,6 @@ $(function() {
 
 If you wish to further customize the theme you might find it convenient to use included [LESS](http://lesscss.org/) files. The theme also includes a [grunt](https://github.com/gruntjs/grunt) script which you can use to build CSS files.
 
-To develop using grunt files just run `grunt` (no options required). This will build theme images and CSS.
+To develop using grunt files, first you need to install the grunt dependencies with ```grunt install``` than the bower dependencies with ```bower install```. After that just run `grunt` (no options required). This will build theme images and CSS.
 
-Do not edit files in the `dist` subdirectory as they are generated via grunt. You'll find theme source code in the `src/themes/proton` subdirectory.
+Do not edit files in the `dist` subdirectory as they are generated via grunt task. You'll find theme source code in the `src/themes/proton` subdirectory.
