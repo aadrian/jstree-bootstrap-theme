@@ -23,10 +23,10 @@
   ],
   "keywords": [],
   "devDependencies": {
-    "grunt": "~0.4.0",
-    "grunt-contrib-copy": "*",
-    "grunt-contrib-less": "~0.8.2",
-    "grunt-contrib-imagemin": "~0.4.0"
+    "grunt": "~1.0.1",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-less": "~1.4.0",
+    "grunt-contrib-imagemin": "~1.0.1"
   },
   "dependencies": {
     "jquery": ">=1.9.1"
