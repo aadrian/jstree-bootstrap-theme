@@ -7,3 +7,6 @@
 /nuget
 /demo/filebrowser/data/root
 /npm.txt
+/*.iml
+/*.ipr
+/.idea/
