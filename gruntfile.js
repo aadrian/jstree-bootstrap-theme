@@ -4,6 +4,9 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
+    clean: {
+      folder: ['dist/*']
+    },
     copy: {
       libs : {
         files : [
@@ -57,10 +60,11 @@ module.exports = function(grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
    // Default task, generate theme sprite images and CSS
-  grunt.registerTask('default', ['imagemin', 'copy:libs', 'copy:fonts', 'less']);
+  grunt.registerTask('default', ['clean','imagemin', 'copy:libs', 'copy:fonts', 'less']);
 };
