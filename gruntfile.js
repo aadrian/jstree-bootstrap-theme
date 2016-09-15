@@ -66,5 +66,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
    // Default task, generate theme sprite images and CSS
-  grunt.registerTask('default', ['clean','imagemin', 'copy:libs', 'copy:fonts', 'less']);
+  grunt.registerTask('default', ['imagemin', 'copy:libs', 'copy:fonts', 'less']);
 };
