@@ -24,9 +24,9 @@
   "keywords": [],
   "devDependencies": {
     "grunt": "~1.0.1",
-    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-clean": "~1.1.0",
     "grunt-contrib-copy": "~1.0.0",
-    "grunt-contrib-less": "~1.4.0"
+    "grunt-contrib-less": "~2.0.0"
   },
   "dependencies": {
     "jquery": ">=1.9.1"
