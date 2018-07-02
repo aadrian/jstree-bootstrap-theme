@@ -26,8 +26,7 @@
     "grunt": "~1.0.1",
     "grunt-contrib-clean": "~1.0.0",
     "grunt-contrib-copy": "~1.0.0",
-    "grunt-contrib-less": "~1.4.0",
-    "grunt-contrib-imagemin": "~1.0.1"
+    "grunt-contrib-less": "~1.4.0"
   },
   "dependencies": {
     "jquery": ">=1.9.1"
